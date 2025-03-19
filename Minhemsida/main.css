@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0px; 
+    margin: 0px; 
+}
+
+ul {
+    list-style-type: disc;
+    display: float;
+    gap: 20px;
+    padding: 1;
+}
+ol {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+body {
+    padding: 0 25px;
+}
+table {
+    text-align: left;
+    width: 100%;
+}
+video {
+    width: 100%;
+}
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.container > div {
+    border: 1px solid rgb(102, 101, 101);
+}
